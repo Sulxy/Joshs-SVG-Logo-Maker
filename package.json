@@ -1,0 +1,17 @@
+{
+  "name": "joshs-svg-logo-maker",
+  "version": "1.0.0",
+  "description": "Create a logo for your project using SVG!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Joshua Hale",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
