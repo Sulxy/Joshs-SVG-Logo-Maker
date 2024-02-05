@@ -4,7 +4,7 @@
   "description": "Create a logo for your project using SVG!",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "jest"
   },
   "author": "Joshua Hale",
   "license": "MIT",
