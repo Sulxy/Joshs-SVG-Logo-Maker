@@ -9,6 +9,7 @@
   "author": "Joshua Hale",
   "license": "MIT",
   "dependencies": {
+    "graceful-fs": "^4.2.11",
     "inquirer": "^8.2.4"
   },
   "devDependencies": {

@@ -1,4 +1,4 @@
-const filesystem = require("fs");
+const filesystem = require("graceful-fs");
 const inquirer = require("inquirer");
 const { Square, Triangle, Circle } = require("./lib/shapes");
 
@@ -6,7 +6,6 @@ class Svg{
     constructor(){
         this.textElement = ''
         this.shapeElement = ''
-        this.color = ''
     }
     render(){
         return `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300" height="200">${this.shapeElement}${this.textElement}</svg>`
@@ -50,12 +49,12 @@ function writeToFile(fileName, data) {
         if (err) {
             return console.log(err);
         }
-        console.log("logo.svg generated!");
+        console.log("logo.svg created!");
     });
 }
 
 async function init() {
-    console.log("Starting init");
+    console.log("Initializing...");
 	let svgString = "";
 	let svg_file = "logo.svg";
 
@@ -71,29 +70,29 @@ async function init() {
         return;
 	}
 	console.log("User text: [" + user_text + "]");
-	//user font color
+	// User font color
 	user_font_color = answers["text-color"];
 	console.log("Font color: [" + user_font_color + "] has been selected.");
-	//user shape color
+	// User shape color
 	user_shape_color = answers.shape;
 	console.log("Shape color: [" + user_shape_color + "] has been selected.");
-	//user shape type
+	// User shape type
 	user_shape_type = answers["Background-Shape"];
-	console.log("Selected shape: [" + user_shape_type + "]");
+	console.log("Background Shape: [" + user_shape_type + "] has been selected.");
 	
-	//user shape
+// User shape
 let user_shape;
 if (user_shape_type === "Square" || user_shape_type === "square") {
     user_shape = new Square();
-    console.log("User selected Square shape");
+    console.log("User selected Square Shape");
 }
 else if (user_shape_type === "Triangle" || user_shape_type === "triangle") {
     user_shape = new Triangle();
-    console.log("User selected Triangle shape");
+    console.log("User selected Triangle Shape");
 }
 else if (user_shape_type === "Circle" || user_shape_type === "circle") {
     user_shape = new Circle();
-    console.log("User selected Circle shape");
+    console.log("User selected Circle Shape");
 }
 else {
     console.log("Invalid shape!");
@@ -110,7 +109,7 @@ else {
 	console.log("Displaying shape:\n\n" + svgString);
 	//document.getElementById("svg_image").innerHTML = svgString;
 
-	console.log("Shape generation complete!");
+	console.log("Shape creation complete!");
 	console.log("Writing shape to file...");
 	writeToFile(svg_file, svgString); 
 }
