@@ -24,7 +24,7 @@ Once the repository has been cloned, and the dependencies have been installed: O
 ## License
 This project is licensed under the MIT license.
 
-[![License: MIT}](https://img.shields.io/badge/License-MIT-yellow.svg)]
+![License: MIT}](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 For more information about the license, click [here](https://opensource.org/licenses/MIT).
 
