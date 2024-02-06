@@ -6,6 +6,7 @@ It prompts the user for information, and then uses that information to create an
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
+- [Demonstration](#Demonstration)
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
@@ -32,7 +33,7 @@ For more information about the license, click [here](https://opensource.org/lice
 Please see the [Github Documents](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project) regarding this topic.
 
 ## Tests
-Ensure you have "jest" installed. Navigate to the "lib" folder, and type "npm start". This will run a script that will PASS/FAIL. 
+Ensure you have "jest" installed. Navigate to the "lib" folder, and type "npm start". This will run a script that will PASS/FAIL, as seen in the Demonstration video above. 
 
 ## Questions
 If you have any questions, feel free to reach out to me:
