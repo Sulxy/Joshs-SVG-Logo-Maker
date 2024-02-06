@@ -20,12 +20,12 @@ Once the repository has been cloned, and the dependencies have been installed: O
 ## License
 This project is licensed under the MIT license.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+[![License: MIT}](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
 For more information about the license, click [here](https://opensource.org/licenses/MIT).
 
 ## Contributing
-Please see the [Github Documents](<link here>) regarding this topic.
+Please see the [Github Documents](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project) regarding this topic.
 
 ## Tests
 Ensure you have "jest" installed. Navigate to the "lib" folder, and type "npm start". This will run a script that will PASS/FAIL. 
