@@ -17,8 +17,6 @@ class Svg {
 
     // Method to set the text element in SVG
     setTextElement(text, color) {
-        const textWidth = text.length * 20; // Assuming each character has a width of 20
-        const x = 150 - (textWidth / 2); // Calculate the x position to center the text
         this.textElement = `<text x="150" y="125" font-size="60" text-anchor="middle" fill="${color}">${text}</text>`;
     }
 
