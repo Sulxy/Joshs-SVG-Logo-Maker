@@ -15,7 +15,11 @@ It prompts the user for information, and then uses that information to create an
 Clone the repository, and follow the instructions outlined in the video. (Requires npm, jest, graceful-fs, and inquirer.)
 
 ## Usage
-Once the repository has been cloned, and the dependencies have been installed: Open the command line, navigate to the correct folder (that has index.js), and type "node index.js". This will then prompt the user with questions, and once they are all answered, it will generate a new file: logo.svg. Inside that file you will find the code necessary for the image requested. 
+Once the repository has been cloned, and the dependencies have been installed: Open the command line, navigate to the correct folder (that has index.js), and type "node index.js". This will then prompt the user with questions, and once they are all answered, it will generate a new file: logo.svg. Inside that file you will find the code necessary for the image requested.
+
+## Demonstration
+
+[Video](https://www.youtube.com/watch?v=PgXphCxPNbc)
 
 ## License
 This project is licensed under the MIT license.
